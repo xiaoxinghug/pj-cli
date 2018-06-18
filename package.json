@@ -1,6 +1,7 @@
+
 {
-  "name": "hwxyz",
-  "version": "0.0.4",
+  "name": "pj-cli",
+  "version": "0.0.9",
   "description": "一个简单的脚手架工具",
   "main": "index.js",
   "scripts": {
@@ -8,16 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huomarvin/hwxyz.git"
+    "url": "https://github.com/xiaoxinghug/pj-cli.git"
   },
   "bin": {
-    "hwxyz": "./bin/hwxyz"
+    "pj": "./bin/pj"
   },
-  "author": "Marvin.H",
+  "author": "chenxiaoxing",
   "bugs": {
-    "url": "https://github.com/huomarvin/hwxyz/issues"
+    "url": "https://github.com/xiaoxinghug/pj-cli/issues"
   },
-  "homepage": "https://github.com/huomarvin/hwxyz",
+  "homepage": "https://github.com/xiaoxinghug/pj-cli",
   "license": "ISC",
   "devDependencies": {
    
