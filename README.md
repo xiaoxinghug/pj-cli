@@ -1,4 +1,4 @@
-# hwxyz
+# pj-cli
 Hwxyz is a node scaffold,named by  the team member’s last name .
 
 The hwxyz library exported as [Node.js](https://nodejs.org/) modules.
