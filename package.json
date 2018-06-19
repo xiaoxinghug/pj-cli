@@ -1,7 +1,7 @@
 
 {
   "name": "pj-cli",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "一个简单的脚手架工具",
   "main": "index.js",
   "scripts": {

@@ -22,17 +22,17 @@ npm -v
 Using npm:
 
 ```shell
-npm install -g hwxyz
-hwxyz init <project name>
+npm install -g pj-cli
+pj init <project name>
 # 指定初始化仓库
-hwxyz init <project name> -r huomarvin/react-koa2-ssr
+pj init <project name> -r huomarvin/react-koa2-ssr
 ```
 
-Update hwxyz:
+Update pj:
 
 ```shell
-npm uninstall -g hwxyz
-npm install -g hwxyz
+npm uninstall -g pj
+npm install -g pj
 ```
 
 
