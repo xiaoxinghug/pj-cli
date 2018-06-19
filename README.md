@@ -23,9 +23,10 @@ Using npm:
 
 ```shell
 npm install -g pj-cli
+# 初始化项目
 pj init <project name>
 # 指定初始化仓库
-pj init <project name> -r huomarvin/react-koa2-ssr
+# pj init <project name> -r xiaoxinghug/vue-template
 ```
 
 Update pj:
