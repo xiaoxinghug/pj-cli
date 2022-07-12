@@ -1,7 +1,7 @@
 {
   "name": "powerfe-cli",
   "version": "1.0.0",
-  "description": "a vue cli",
+  "description": "powerfe-tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "powerfe-init": "bin/cm-init"
   },
   "keywords": [],
-  "author": "",
+  "author": "zhenxing.chen",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.2",
