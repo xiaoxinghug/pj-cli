@@ -1,46 +1,42 @@
-# pj-cli
-pj-cli is a node scaffold,named by  the team member’s last name .
-
-The pj-cli library exported as [Node.js](https://nodejs.org/) modules.
-
-It can help us to generate a framework by template replacement .
-
-It can customize interactions.
-
-I will perfect it step by step.
-
-## Develop
-```shell
-node -v
-#v8.9.3
-npm -v
-#5.6.0
-```
-
 ## Installation
 
-Using npm:
-
-```shell
-npm install -g pj-cli
-# 初始化项目
-pj init <project name>
-# 指定初始化仓库
-# pj init <project name> -r xiaoxinghug/vue-template
+```
+npm install  powerfe-cli -g
 ```
 
-Update pj:
+## Usage
 
-```shell
-npm uninstall -g pj
-npm install -g pj
+Open your terminal and type `powerfe -h` , you'll see the help infomation below:
+
+```
+Usage: powerfe <command>
+
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+
+Commands:
+  list           List the templateList
+  init           init a project
 ```
 
+## powerfe list
 
+This command will shows you the templates list.
 
+```
+$ powerfe list
+┌──────┬──────────────────────────────────────────────────┐
+│ name │ url                                              │
+├──────┼──────────────────────────────────────────────────┤
+│  pc  │ https://github.com/Michael-lzg/vue-cli4-vant.git │
+└──────┴──────────────────────────────────────────────────┘
+```
 
+## powerfe init 
 
+You can init a templates use this command
 
-
-
-
+```
+powerfe init pc <project name>
+```

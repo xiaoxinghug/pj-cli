@@ -1,38 +1,25 @@
-
 {
-  "name": "pj-cli",
-  "version": "0.1.0",
-  "description": "一个简单的脚手架工具",
+  "name": "powerfe-cli",
+  "version": "1.0.0",
+  "description": "a vue cli",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/xiaoxinghug/pj-cli.git"
-  },
   "bin": {
-    "pj": "./bin/pj"
+    "powerfe": "bin/cm",
+    "powerfe-init": "bin/cm-init"
   },
-  "author": "chenxiaoxing",
-  "bugs": {
-    "url": "https://github.com/xiaoxinghug/pj-cli/issues"
-  },
-  "homepage": "https://github.com/xiaoxinghug/pj-cli",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "devDependencies": {
-   
-  },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "commander": "^2.15.1",
-    "download-git-repo": "^1.0.2",
-    "latest-version": "^3.1.0",
-    "log-symbols": "^2.2.0",
-    "glob": "^7.1.2",
-    "handlebars": "^4.0.11",
-    "inquirer": "^5.2.0",
-    "metalsmith": "^2.3.0",
-    "ora": "^2.1.0"
+    "chalk": "^4.1.2",
+    "cli-table": "^0.3.6",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "log-symbols": "^4.0.0",
+    "ora": "^3.2.0"
   }
 }
